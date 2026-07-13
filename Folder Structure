@@ -1,0 +1,59 @@
+evil-mod/
+├── client/
+│   ├── public/
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Chat/
+│   │   │   │   ├── ChatArea.jsx
+│   │   │   │   ├── ChatInput.jsx
+│   │   │   │   ├── MessageBubble.jsx
+│   │   │   │   ├── ModelSelector.jsx
+│   │   │   │   ├── TypingIndicator.jsx
+│   │   │   │   └── ExportMenu.jsx
+│   │   │   ├── Sidebar/
+│   │   │   │   ├── Sidebar.jsx
+│   │   │   │   └── ConversationItem.jsx
+│   │   │   ├── Admin/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── ModelConfigCard.jsx
+│   │   │   │   └── LogsViewer.jsx
+│   │   │   └── UI/
+│   │   │       ├── MaintenanceBanner.jsx
+│   │   │       └── Toast.jsx (using react-hot-toast)
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── AdminPanel.jsx
+│   │   ├── utils/
+│   │   │   ├── api.js
+│   │   │   ├── localStorage.js
+│   │   │   └── stream.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   └── postcss.config.js
+├── server/
+│   ├── config/
+│   │   ├── firebaseAdmin.js
+│   │   └── modelMap.js
+│   ├── middleware/
+│   │   ├── adminAuth.js
+│   │   ├── rateLimiter.js
+│   │   └── sanitize.js
+│   ├── routes/
+│   │   ├── chat.js
+│   │   ├── models.js
+│   │   └── admin.js
+│   ├── services/
+│   │   └── aiService.js
+│   ├── utils/
+│   │   └── promptFormatter.js
+│   ├── .env.example
+│   ├── package.json
+│   └── server.js
+└── render.yaml
